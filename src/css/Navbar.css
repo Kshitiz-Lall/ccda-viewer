@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background color */
+  color: #fff;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.about-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.about-button:hover {
+  color: #f0f0f0;
+}

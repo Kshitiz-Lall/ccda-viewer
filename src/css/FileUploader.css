@@ -1,0 +1,137 @@
+/* Variables */
+:root {
+  --primary-color: #007bff;
+  --border-radius: 5px;
+}
+.file-uploader {
+  width: 95%;
+}
+.component {
+  max-width: 700px;
+  width: 600px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* Logo styling */
+.logo-container {
+  text-align: center;
+}
+
+.logo-image {
+  max-width: 350px; /* Adjust the size as needed */
+}
+
+/* Content styling */
+.content {
+  text-align: center;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Dropzone styling */
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  border: 2px dashed #ddd;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  width: flex; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  /* Adjust the width and height as needed */
+}
+
+.dropzone:hover {
+  border-color: var(--primary-color);
+}
+
+.dropzone p {
+  margin: 7px 0;
+}
+
+/* Limit styling */
+.limit {
+  font-size: small;
+  padding-top: 0;
+}
+
+/* Selected file name styling */
+.selected-file-name {
+  margin: 10px 0;
+}
+.section-names {
+  margin-left: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+.list {
+  display: inline;
+  margin-right: 24px;
+}
+.section-radio-label {
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.show-sections-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.show-sections-button:hover {
+  background-color: #0056b3;
+}
+
+.show-sections-button:active {
+  background-color: #004499;
+}
+
+/* Add this to your CSS file */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+  margin-top: 20px;
+}
